@@ -1,4 +1,4 @@
-This builder action lets set the "AvailableUpdates" registry key to several pre-defined values. This registry key instructs the built in windows secure boot update engine to perform various tasks.
+This builder action lets you set the "AvailableUpdates" registry key to several pre-defined values. This registry key instructs the built in windows secure boot update engine to perform various tasks.
 Once the value is set, the Secure-Boot-Update scheduled task needs to run to apply the updates, then the machine will need to reboot (potentially several times) to apply.
 Value descriptions:
 - Update Certs Only - Applies updated Secure Boot Certificates. Non breaking change, simply adds the new certificates to the database. 
